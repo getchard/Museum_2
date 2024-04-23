@@ -1,7 +1,12 @@
-@import 'utils';
-@import 'fonts';
-@import 'typography';
-
-body {
-  background: $c-gray;
-}
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/reset';
+@import 'top-bar';
+@import 'header';
+@import 'main-content';
+@import 'plan';
+@import 'news';
+@import 'digest';
+@import 'footer';
+@import 'icon';
+@import 'schedules';

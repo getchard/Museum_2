@@ -1,0 +1,53 @@
+.news {
+  &__h3 {
+    margin-top: 90px;
+    color: $c-black;
+  }
+
+  &-time {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: $c-black;
+  }
+
+  &-title {
+    margin-top: 0;
+    color: $c-black;
+  }
+
+  &-text {
+    margin-top: 20px;
+    color: $c-gray;
+  }
+
+  &-card {
+    &-1 {
+      margin-top: 60px;
+    }
+
+    &-2 {
+      margin-top: 50px;
+    }
+  }
+
+  &-image {
+    height: 280px;
+    width: 280px;
+
+    &-1 {
+      background-image: url(../images/news\ 1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &-2 {
+      background-image: url(../images/news\ 2.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.section-3 {
+  @include content-padding-inline;
+}

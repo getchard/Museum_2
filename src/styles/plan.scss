@@ -1,0 +1,22 @@
+.plan {
+  @include content-padding-inline;
+
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  background-color: $c-header-background;
+  height: 416px;
+
+  &__title {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  &__text {
+    margin-top: 20px;
+  }
+
+  &__button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: $c-main-background;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: $c-white-color;
+}
+
+button {
+  border: none;
+}
+
+.header__container {
+  @include page-grid;
+  @include content-padding-inline;
+}
+
+h2 {
+  font-family: Playfair Display;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: left;
+}
+
+h4 {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+}
+
+h5 {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+h6 {
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.5px;
+  text-align: left;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.additional {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+}

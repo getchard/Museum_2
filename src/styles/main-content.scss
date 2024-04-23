@@ -1,0 +1,128 @@
+.main {
+  background-color: $c-white-color;
+
+  &__button {
+    background-color: $c-button-color;
+    color: $c-white-color;
+    width: 280px;
+    height: 60px;
+
+    &:hover {
+      background-color: $c-hover;
+    }
+
+    &:active {
+      background-color: $c-pressed;
+    }
+
+    &:disabled {
+      background-color: $c-disabled;
+    }
+  }
+
+  &__button-secondary {
+    width: 280px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: $c-time;
+    border: 1px solid $c-time;
+
+    &:hover {
+      color: $c-secondary-hover;
+      border-color: $c-secondary-hover;
+    }
+
+    &:active {
+      color: $c-secondary-pressed;
+      border-color: $c-secondary-pressed;
+    }
+
+    &:disabled {
+      color: $c-secondary-disabled;
+      border-color: $c-secondary-disabled;
+      cursor: not-allowed;
+    }
+  }
+
+  &__h2 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    color: $c-black;
+
+    &-2 {
+      margin-top: 120px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    &-image {
+      height: 356px;
+      width: 280px;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      &-1 {
+        background-image: url(../images/image\ 1.png);
+      }
+
+      &-2 {
+        background-image: url(../images/image\ 2.png);
+      }
+
+      &-3 {
+        background-image: url(../images/image\ 3.png);
+      }
+
+      &-4 {
+        background-image: url(../images/image\ 4.png);
+      }
+    }
+
+    &-time {
+      font-family: Raleway;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;
+      color: $c-time;
+    }
+
+    &-title {
+      font-family: Playfair Display;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: left;
+      color: $c-black;
+    }
+
+    &-text {
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: $c-gray;
+    }
+
+    &-1 {
+      margin-bottom: 60px;
+    }
+
+    &-4 {
+      margin-top: 60px;
+    }
+  }
+}
+
+.section-1, .section-2 {
+  @include content-padding-inline;
+}
